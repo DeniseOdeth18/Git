@@ -1,0 +1,73 @@
+Last login: Tue Oct 26 10:39:21 on console
+deniseodeth@MacBook-Air-de-Denise ~ % git --version
+git version 2.30.1 (Apple Git-130)
+deniseodeth@MacBook-Air-de-Denise ~ % 
+deniseodeth@MacBook-Air-de-Denise ~ % pwd                           
+/Users/deniseodeth
+deniseodeth@MacBook-Air-de-Denise ~ % ls
+21Denise.jflap				Downloads				ejer_24.jflap
+22Denise.jflap				Library					ejercicio2.jflap
+23Denise.jflap				Movies					ejercicio3.jflap
+24Denise.jflap				Music					ejercicio4.jflap
+25Denise.jflap				Parallels				ejercicioo1.jflap
+ActividadDelAlumnoAngryBirdsEtapa2.5	Pictures				ejerciciooo5.jflap
+Applications				Public					export
+Applications (Parallels)		VirtualBox VMs				prueba.jff
+Cisco Packet Tracer 8.0.1		au1.jpg					prueba2.jff
+Desktop					d5.jflap				prueba3.jff
+Documents				eje5.jflap
+deniseodeth@MacBook-Air-de-Denise ~ % cd /Users/deniseodeth/Documents
+deniseodeth@MacBook-Air-de-Denise Documents % ls
+BH							Descargas importantes
+Byjus							Mouse
+ByjusVol2						Nut
+Captura de Pantalla 2021-10-05 a la(s) 21.52.48.png	Septimo Semestre
+Capturas						TXT
+Configuration						Trex
+deniseodeth@MacBook-Air-de-Denise Documents % mkditr den
+zsh: command not found: mkditr
+deniseodeth@MacBook-Air-de-Denise Documents % mkdir den 
+deniseodeth@MacBook-Air-de-Denise Documents % git clone https://github.com/alejandraluna1/AngryBirdsEtapa2
+Cloning into 'AngryBirdsEtapa2'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 24 (delta 3), reused 2 (delta 0), pack-reused 0
+Receiving objects: 100% (24/24), 2.54 MiB | 3.58 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+deniseodeth@MacBook-Air-de-Denise Documents % cd AngryBirdsEtapa2
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % ls
+Ave.js		Cerdo.js	README.md	Suelo.js	index.html	p5.dom.min.js	p5.sound.min.js	style.css
+Caja.js		ClaseBase.js	Sprites		Tronco.js	matter.js	p5.min.js	sketch.js
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % vi sketch.js
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % git add sketch.js
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   sketch.js
+
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % git commit -m "Cambio de Sketch con Angel"
+[main ff2a6f3] Cambio de Sketch con Angel
+ 1 file changed, 1 insertion(+)
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % git remote add angryBirds2.5 https://github.com/DeniseOdeth18/ActividadDelAlumnoAngryBirds.git
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % git push -u angryBirds2.5
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (27/27), 2.54 MiB | 2.73 MiB/s, done.
+Total 27 (delta 5), reused 22 (delta 3), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/DeniseOdeth18/ActividadDelAlumnoAngryBirds.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'angryBirds2.5'.
+deniseodeth@MacBook-Air-de-Denise AngryBirdsEtapa2 % 
